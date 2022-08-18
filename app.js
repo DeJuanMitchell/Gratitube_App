@@ -63,5 +63,7 @@ window.addEventListener('load', () => {
         item_delete_el.addEventListener('click', () => {
             list_el.removeChild(item_el);
         });
+
+        localStorage.setItem('userData', item);
     })
 })
